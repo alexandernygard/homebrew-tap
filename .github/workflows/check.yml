@@ -16,6 +16,7 @@ jobs:
           TAP="$(brew --repository)/Library/Taps/alexandernygard/homebrew-tap"
           mkdir -p "$(dirname "$TAP")"
           ln -s "$GITHUB_WORKSPACE" "$TAP"
+          brew trust alexandernygard/tap
 
       - name: Style
         run: brew style alexandernygard/tap

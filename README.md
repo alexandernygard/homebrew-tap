@@ -2,9 +2,13 @@
 
 Homebrew casks and formulae for my apps.
 
+Install an app by its full name, which also tells Homebrew to trust it:
+
 ```sh
-brew tap alexandernygard/tap
+brew install --cask alexandernygard/tap/ur
 ```
+
+If you `brew tap alexandernygard/tap` first and use short names, run `brew trust alexandernygard/tap` once, since Homebrew ignores casks from taps it doesn't trust.
 
 | Name | What it is | Install |
 |---|---|---|
