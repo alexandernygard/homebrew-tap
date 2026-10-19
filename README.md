@@ -14,6 +14,7 @@ If you `brew tap alexandernygard/tap` first and use short names, run `brew trust
 |---|---|---|
 | [Ur](https://github.com/alexandernygard/ur) | Keyboard-first time tracker for the work day (macOS 14+) | `brew install --cask alexandernygard/tap/ur` |
 | [GH Watcher](https://github.com/alexandernygard/gh-watcher) | Live monitor for GitHub repositories, pull requests and CI, with a menu bar status item (macOS 26+) | `brew install --cask alexandernygard/tap/gh-watcher` |
+| [Glimpse](https://github.com/alexandernygard/glimpse) | Hotkey screenshots and notes that Claude titles, sorts and summarises (macOS 14+) | `brew install --cask alexandernygard/tap/glimpse` |
 
 Update everything with `brew upgrade`.
 
