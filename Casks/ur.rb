@@ -12,6 +12,7 @@ cask "ur" do
     strategy :github_latest
   end
 
+  depends_on arch: :arm64
   depends_on macos: :sonoma
 
   app "Ur.app"
@@ -20,6 +21,9 @@ cask "ur" do
 
   zap trash: [
     "~/Library/Application Support/Ur",
+    "~/Library/Caches/no.nygard.ur",
     "~/Library/Preferences/no.nygard.ur.plist",
+    "~/Library/Saved Application State/no.nygard.ur.savedState",
+    "~/Library/WebKit/no.nygard.ur",
   ]
 end
