@@ -1,6 +1,6 @@
 cask "abacus" do
-  version "0.1.0"
-  sha256 "94c50e2ebb0b05e7d0419c61cbced4c561735ff0bb43665e0fe84aa87af112d4"
+  version "0.1.1"
+  sha256 "07ec2c1f424415d832f7b0783d24606436dbd08b65e8bf7d9616a298e4b5a122"
 
   url "https://github.com/alexandernygard/abacus/releases/download/v#{version}/Abacus.zip"
   name "Abacus"
