@@ -23,9 +23,9 @@ cask "gh-watcher" do
     "~/Library/Application Support/GH Watcher",
     "~/Library/Caches/com.nyggis.gh-watcher",
     "~/Library/Preferences/com.nyggis.gh-watcher.plist",
-    "~/Library/Saved Application State/com.nyggis.gh-watcher.savedState",
-    "~/Library/WebKit/com.nyggis.gh-watcher",
     # GH Watcher v1 (SwiftUI)
     "~/Library/Preferences/dev.nygard.GHWatcher.plist",
+    "~/Library/Saved Application State/com.nyggis.gh-watcher.savedState",
+    "~/Library/WebKit/com.nyggis.gh-watcher",
   ]
 end
