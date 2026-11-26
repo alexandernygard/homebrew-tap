@@ -1,6 +1,6 @@
 cask "gh-watcher" do
-  version "2.0.1"
-  sha256 "c9e04a951c6dc17916b1f6f55490042046a7fe9ae3e048a9176fc8676b618b8c"
+  version "2.0.2"
+  sha256 "4231a29406be7333ccff40681421497e5fd76dd0285ae1fec32afd69f91ade2d"
 
   url "https://github.com/alexandernygard/gh-watcher/releases/download/v#{version}/GH-Watcher.zip"
   name "GH Watcher"

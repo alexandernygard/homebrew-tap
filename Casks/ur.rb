@@ -1,6 +1,6 @@
 cask "ur" do
-  version "2.0.0"
-  sha256 "cc665de55ff6a32483ab2d15765887f40ca6261af91258325949f4f2ae337762"
+  version "2.0.1"
+  sha256 "1fd624ffed5e51b8b9ad427d57cd2452a9c16b88c6743c30644c802845f49106"
 
   url "https://github.com/alexandernygard/ur/releases/download/v#{version}/Ur.zip"
   name "Ur"
